@@ -1,4 +1,4 @@
-/* Landing.css */
+
 .landing {
   position: relative;
   max-width: 100%;
@@ -15,14 +15,14 @@
 }
 .carousel .control-dots .dot {
   width: 27%;
-  height: 6px;
+  height: 4px;
   border-radius: 0;
   margin: 0 5px;
 }
 
-/* Change the background color of active dots */
+
 .carousel .control-dots .dot.selected {
-  background-color: #03f817; /* Change to desired active color */
+  background-color: lightblue;
 }
 
 .caption {
@@ -31,7 +31,7 @@
   left: 20px;
   padding: 20px;
   color: #000000;
-  background-color: #02ff39;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .caption h2 {

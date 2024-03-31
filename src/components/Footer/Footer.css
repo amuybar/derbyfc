@@ -1,13 +1,13 @@
-/* Footer.css */
+
 
 .footer {
-  background-color: #f8f9fa; /* Footer background color */
-  padding: 20px 0; /* Padding for the footer content */
+  background-color: #f8f9fa;
+  padding: 20px ;
 }
 
 .footer-container {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap */
+  flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
@@ -15,7 +15,7 @@
 
 .footer-section {
   flex: 1;
-  margin-bottom: 20px; /* Add margin between sections */
+  margin-bottom: 20px;
 }
 
 .footer-section h4 {
@@ -29,6 +29,6 @@
 
 @media screen and (max-width: 768px) {
   .footer-section {
-    flex-basis: 100%; /* Each section takes full width on small screens */
+    flex-basis: 100%;
   }
 }
