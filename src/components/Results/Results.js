@@ -39,10 +39,10 @@ const Results = () => {
   ];
 
   return (
-    <div className="results-container">
+    <><h2>Previous Games</h2><div className="results-container">
       {results.map((result) => (
         <div key={result.id} className="result-card">
-          <img src={result.image} alt=''className="result-image" />
+          <img src={result.image} alt='' className="result-image" />
           <div className="result-details">
             <h3>{result.matchday}</h3>
             <p>Opponent: {result.opponent}</p>
@@ -50,7 +50,7 @@ const Results = () => {
           </div>
         </div>
       ))}
-    </div>
+    </div></>
   );
 };
 

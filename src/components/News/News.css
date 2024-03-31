@@ -31,14 +31,15 @@
 .news-summary {
   padding: 10px;
   display: block;
-  color: #007bff;
+  color: orange;
+  font-size: 18px;
   text-decoration: none;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .news-summary:hover {
-  color: #003975;
+  color: orangered;
 }
 
 .bottom-summary{

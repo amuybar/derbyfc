@@ -1,0 +1,16 @@
+
+.general-info-page {
+  background-color: #15531f;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}

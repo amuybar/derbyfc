@@ -1,10 +1,16 @@
 import React, { useState, } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Landing.css';
 
 const Landing = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate();
+
+  const handleClickFixture=()=>{
+    navigate('/fixture');
+  }
 
 
  
@@ -22,22 +28,19 @@ const Landing = () => {
         <div className="carousel-item">
           <img src="images/players3.jpg" alt="" />
           <div className="caption">
-            <h2>Training session</h2>
-            <p>Inclass Trainning session with all the players</p>
+            <button onClick={handleClickFixture}>Fixture</button>
           </div>
         </div>
         <div className="carousel-item">
           <img src="images/players2.jpg" alt="" />
           <div className="caption">
-            <h2>MatchDay</h2>
-            <p>Description 2</p>
+          <button onClick={handleClickFixture}>Standings</button>
           </div>
         </div>
         <div className="carousel-item">
           <img src="images/players3.jpg" alt="" />
           <div className="caption">
-            <h2>MatchDay</h2>
-            <p>Description 3</p>
+          <button onClick={handleClickFixture}>Results</button>
           </div>
         </div>
       </Carousel>

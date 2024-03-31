@@ -1,0 +1,29 @@
+
+.app-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: #15531f;
+  color: #fff;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.current-path {
+  margin: 0;
+  padding-right: 20px;
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px; 
+  color: orange;
+  padding-right: 30px;
+}
+
+.arrow-button:hover {
+  color: #ccc; 
+}

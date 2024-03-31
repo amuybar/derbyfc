@@ -37,10 +37,10 @@ const PlayersGallery = () => {
   ];
 
   return (
-    <div className="players-gallery">
+    <><h2>Players Gallery</h2><div className="players-gallery">
       {players.slice(0, 4).map((player) => (
         <div key={player.id} className="player-card">
-          <img src={player.photo} alt=''className="player-photo" />
+          <img src={player.photo} alt='' className="player-photo" />
           <div className="player-details">
             <h3>{player.name}</h3>
             <p>Age: {player.age}</p>
@@ -48,8 +48,8 @@ const PlayersGallery = () => {
           </div>
         </div>
       ))}
-      
-    </div>
+
+    </div></>
   );
 };
 

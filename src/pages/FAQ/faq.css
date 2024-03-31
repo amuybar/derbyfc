@@ -1,0 +1,21 @@
+/* FAQ.css */
+.faq-list {
+  margin-top: 20px;
+}
+
+.faq-item {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.faq-item p {
+  margin: 0;
+  color: #c4c4c4;
+}

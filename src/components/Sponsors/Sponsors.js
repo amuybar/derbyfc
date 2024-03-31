@@ -12,11 +12,11 @@ const Sponsor = () => {
   ];
 
   return (
-    <div className="sponsor-container">
+    <><h2>Sponsors</h2><div className="sponsor-container">
       {sponsors.map((sponsor) => (
-        <img key={sponsor.id} src={sponsor.logo} alt=''className="sponsor-logo" />
+        <img key={sponsor.id} src={sponsor.logo} alt='' className="sponsor-logo" />
       ))}
-    </div>
+    </div></>
   );
 };
 

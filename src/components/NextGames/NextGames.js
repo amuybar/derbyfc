@@ -55,13 +55,14 @@ const NextGame = () => {
   ];
 
   return (
-    <div className="next-game-container">
+    <><h2>Next Fixtures</h2><div className="next-game-container">
+
       {nextGames.map((game) => (
         <div key={game.id} className="next-game-card">
           <div className="game-details">
             <p>{game.date}</p>
             <p>{game.type}</p>
-           
+
           </div>
           <div className="team-details">
             <div className="team-logo">
@@ -75,7 +76,7 @@ const NextGame = () => {
           <button className="match-center-button">Match Center</button>
         </div>
       ))}
-    </div>
+    </div></>
   );
 };
 

@@ -4,13 +4,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
-  color: #000000;
+  background-color: green;
+  color: #fff;
 }
 
 .left {
   display: flex;
   align-items: center;
+}
+.link-btn{
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
 }
 
 .right {
@@ -64,11 +68,21 @@
   font-size: 20px;
   color: white; 
   font-weight: bold;
-  border-bottom: 1px solid #fff;
+  position: relative; /* Add relative positioning */
 }
 
-.dropdown-menu ul li:last-child {
-  border-bottom: none;
+.dropdown-menu ul li::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Extend the line across the entire width */
+  height: 1px;
+  background-color: #fff; /* White bottom line */
+}
+
+.dropdown-menu ul li:last-child::after {
+  display: none; /* Remove bottom line from last link */
 }
 
 .bottom-buttons {

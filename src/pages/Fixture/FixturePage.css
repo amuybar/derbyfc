@@ -1,0 +1,26 @@
+/* FixturePage.css */
+.fixture-page {
+  margin: 20px;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs div {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+}
+
+.tabs div.active {
+  background-color: #fff;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

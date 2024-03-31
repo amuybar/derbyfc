@@ -10,12 +10,15 @@ import Sponsors from './components/Sponsors/Sponsors';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import Add from './components/Add/Add';
+import AboutSummary from './components/about/AboutSummary';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Landing />
+      <Add/>
+      <AboutSummary/>
       <Add/>
       <Results />
       <Add/>

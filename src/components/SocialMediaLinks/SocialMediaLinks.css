@@ -1,22 +1,23 @@
 .social-media-links {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  margin: 10px;
 }
 
 .icon {
-  font-size: 24px; /* Adjust the size of social media icons */
-  margin: 0 10px; /* Adjust margin as needed */
+  font-size: 28px;
+  margin: 0 10px;
 }
 
 .facebook {
-  color: #3b5998; /* Facebook color */
+  color: #ffffff;
 }
 
 .twitter {
-  color: #1da1f2; /* Twitter color */
+  color: #ffffff;
 }
 
 .instagram {
-  color: #c13584; /* Instagram color */
+  color: #ffffff;
 }

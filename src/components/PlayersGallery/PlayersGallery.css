@@ -1,14 +1,14 @@
 
 .players-gallery {
   display: flex;
-  flex-direction: row; /* Ensure horizontal list view */
-  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
-  justify-content: flex-start; /* Start from the beginning */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: center;
-  background-color: rgb(255, 255, 255);
-  overflow-x: scroll; /* Allow horizontal scrolling */
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  padding: 10px 0; /* Add some padding for better appearance */
+  background-color: green;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 10px 0;
 }
 
 .player-card {

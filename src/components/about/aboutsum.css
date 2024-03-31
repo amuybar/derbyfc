@@ -1,0 +1,16 @@
+
+.about-summary {
+  margin: 0 10px;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+.about-summary h2 {
+  color: #ffffff;
+}
+
+.about-summary p {
+  color: #ffffff;
+  line-height: 1.6;
+}

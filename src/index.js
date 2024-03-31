@@ -1,12 +1,31 @@
 // index.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
 import App from './App';
+import AboutPage from './pages/Abouts/about';
+import ClubPartnerPage from './pages/Abouts/ClubPartners';
+import CareerPage from './pages/Abouts/Careers';
+import GeneralInfoPage from './pages/Abouts/Generalinfo';
+import NotFound from './pages/404';
+import FAQ from './pages/FAQ/fqa';
+import Contact from './pages/Contact/contacts';
+import FixturePage from './pages/Fixture/Fixture';
 
 ReactDOM.render(
   <Router>
-    <App />
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/clubpatners" element={<ClubPartnerPage />} />
+      <Route path="/careers" element={<CareerPage />} />
+      <Route path='/info'element={<GeneralInfoPage />} />
+      <Route path='/faq'element={<FAQ />} />
+      <Route path='/contact'element={<Contact />} />
+      <Route path='/404' element={<NotFound/>} /> 
+      <Route path='/fixture' element={<FixturePage/>} /> 
+    </Routes>
+   
   </Router>,
   document.getElementById('root')
 );

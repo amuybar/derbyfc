@@ -1,6 +1,7 @@
 // Header.js
 import React, { useState } from 'react';
 import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -33,11 +34,13 @@ const Header = () => {
             </div>
             <ul>
               <h2>About The Club</h2>
-              <li>About Derby FC</li>
-              <li>General Information</li>
-              <li>Club Partners</li>
-              <li>Careers</li>
-              <li>Contact Us</li>
+              <Link className='link-btn' to='/about' ><li>About Derby FC</li></Link>
+              <Link className='link-btn' to='/info' ><li>General Information</li></Link>
+              <Link className='link-btn' to='/clubpatners' ><li>Club Partners</li></Link>
+              <Link className='link-btn' to='/careers' ><li>Careers</li></Link>
+              <Link className='link-btn' to='/about' ><li>Contact Us</li></Link>
+              
+              
             </ul>
             <div className="bottom-buttons">
               <button>Login</button>
