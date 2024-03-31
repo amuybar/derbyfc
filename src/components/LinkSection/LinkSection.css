@@ -1,0 +1,16 @@
+
+.link-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #007bff;
+}

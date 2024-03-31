@@ -1,0 +1,33 @@
+
+.players-gallery {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal list view */
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  justify-content: flex-start; /* Start from the beginning */
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  overflow-x: scroll; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  padding: 10px 0; /* Add some padding for better appearance */
+}
+
+.player-card {
+  width: 45%;
+  margin: 10px;
+  border: 1px solid #01f2fa;
+  border-radius: 5px;
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.player-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.player-details {
+  padding: 10px;
+  color: rgb(10, 1, 34);
+  font-weight: bold;
+}

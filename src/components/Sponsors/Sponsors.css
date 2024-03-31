@@ -1,0 +1,11 @@
+.sponsor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-logo {
+  width: 100px; /* Adjust the size of sponsor logos */
+  height: auto;
+  margin: 0 10px; /* Adjust margin as needed */
+}
