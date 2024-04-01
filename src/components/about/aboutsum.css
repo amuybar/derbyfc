@@ -14,3 +14,13 @@
   color: #ffffff;
   line-height: 1.6;
 }
+.cta-buttons{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.cta-buttons button{
+ margin: 10px;
+  cursor: pointer;
+  border-radius: none;
+}

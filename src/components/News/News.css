@@ -2,9 +2,8 @@
 .news-container {
   display: flex;
   overflow-x: scroll;
-  padding: 30px;
+  padding: 10px;
   overflow-y: hidden;
-  padding: 30px;
 }
 
 .news-card {
@@ -47,8 +46,8 @@
   align-items: end;
 }
 .bottom-summary hr{
-  background-color: black;
-  height: 2px;
+  background-color: rgb(83, 83, 83);
+  height: 1px;
   width: 100%;
 }
 .bs{

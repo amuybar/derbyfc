@@ -1,11 +1,21 @@
 // Header.js
 import React, { useState } from 'react';
 import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
 import {Link} from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const navigate=useNavigate();
+
+
+  const handleRegister = () => {
+    navigate('/register')
+    
+  };
+  const handleLogin = () => {
+    navigate('/login')}
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -43,8 +53,8 @@ const Header = () => {
               
             </ul>
             <div className="bottom-buttons">
-              <button>Login</button>
-              <button>Register</button>
+              <button onClick={handleLogin}>Login</button>
+              <button onClick={handleRegister}>Register</button>
             </div>
           </div>
         )}

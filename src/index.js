@@ -11,6 +11,9 @@ import NotFound from './pages/404';
 import FAQ from './pages/FAQ/fqa';
 import Contact from './pages/Contact/contacts';
 import FixturePage from './pages/Fixture/Fixture';
+import Register from './pages/Auth/Register';
+import Login from './pages/Auth/Login';
+import TicketPurchase from './pages/Ticket/Ticket';
 
 ReactDOM.render(
   <Router>
@@ -24,7 +27,12 @@ ReactDOM.render(
       <Route path='/contact'element={<Contact />} />
       <Route path='/404' element={<NotFound/>} /> 
       <Route path='/fixture' element={<FixturePage/>} /> 
+      <Route path='/register' element={<Register/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/aticket' element={<TicketPurchase/>} />
+
     </Routes>
+
    
   </Router>,
   document.getElementById('root')
